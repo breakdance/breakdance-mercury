@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 var ok = require('log-ok');
-var url = require('url');
 var path = require('path');
 var write = require('write-file');
 var request = require('./');
@@ -39,16 +38,19 @@ if (!src || !dest) {
 request(src, argv)
   .then(function(res) {
     write(dest, res.markdown, function(err) {
-      if (err) {
-        console.error(err);
-        process.exit(1);
-      }
+      handleError(err);
       ok('done');
       process.exit();
     });
   })
-  .catch(console.error)
+  .catch(handleError);
 
+function handleError(err) {
+  if (err) {
+    console.error(err);
+    process.exit(1);
+  }
+}
 
 function help() {
   console.error('Usage: $ bdr [options] <src> <dest>');
