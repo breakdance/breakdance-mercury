@@ -115,6 +115,14 @@ Options:
 
 ## About
 
+### Related projects
+
+You might also be interested in these projects:
+
+* [breakdance-cli](https://www.npmjs.com/package/breakdance-cli): CLI for breakdance, the HTML to markdown converter for node.js. | [homepage](https://github.com/breakdance/breakdance-cli "CLI for breakdance, the HTML to markdown converter for node.js.")
+* [breakdance-request](https://www.npmjs.com/package/breakdance-request): Get a webpage from a URL and convert it to markdown. | [homepage](https://github.com/breakdance/breakdance-request "Get a webpage from a URL and convert it to markdown.")
+* [breakdance](https://www.npmjs.com/package/breakdance): Breakdance is a node.js library for converting HTML to markdown. Highly pluggable, flexible and easy… [more](http://breakdance.io) | [homepage](http://breakdance.io "Breakdance is a node.js library for converting HTML to markdown. Highly pluggable, flexible and easy to use. It's time for your markup to get down.")
+
 ### Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).

@@ -54,6 +54,13 @@
     "plugins": [
       "gulp-format-md"
     ],
+    "related": {
+      "list": [
+        "breakdance",
+        "breakdance-cli",
+        "breakdance-request"
+      ]
+    },
     "lint": {
       "reflinks": true
     }
