@@ -1,7 +1,7 @@
 {
   "name": "breakdance-mercury",
   "description": "Breakdance plugin for mercury, the spiritual successor to readability.com. Mercury removes ads and distractions from HTML before passing it to breakdance, resulting in cleaner, more readable markdown.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/breakdance/breakdance-mercury",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "breakdance/breakdance-mercury",
@@ -26,11 +26,14 @@
   },
   "dependencies": {
     "breakdance-request": "^1.0.2",
-    "mixin-deep": "^1.2.0"
+    "log-ok": "^0.1.1",
+    "minimist": "^1.2.0",
+    "mixin-deep": "^1.2.0",
+    "write-file": "^1.0.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^1.0.0",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "gulp-format-md": "^1.0.0"
   },
   "keywords": [
     "breakdance",
