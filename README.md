@@ -1,4 +1,4 @@
-# breakdance-mercury [![NPM version](https://img.shields.io/npm/v/breakdance-mercury.svg?style=flat)](https://www.npmjs.com/package/breakdance-mercury) [![NPM monthly downloads](https://img.shields.io/npm/dm/breakdance-mercury.svg?style=flat)](https://npmjs.org/package/breakdance-mercury) [![NPM total downloads](https://img.shields.io/npm/dt/breakdance-mercury.svg?style=flat)](https://npmjs.org/package/breakdance-mercury) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/breakdance-mercury.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/breakdance-mercury)
+# breakdance-mercury [![NPM version](https://img.shields.io/npm/v/breakdance-mercury.svg?style=flat)](https://www.npmjs.com/package/breakdance-mercury) [![NPM monthly downloads](https://img.shields.io/npm/dm/breakdance-mercury.svg?style=flat)](https://npmjs.org/package/breakdance-mercury) [![NPM total downloads](https://img.shields.io/npm/dt/breakdance-mercury.svg?style=flat)](https://npmjs.org/package/breakdance-mercury) [![Linux Build Status](https://img.shields.io/travis/breakdance/breakdance-mercury.svg?style=flat&label=Travis)](https://travis-ci.org/breakdance/breakdance-mercury)
 
 > Breakdance plugin for mercury, the spiritual successor to readability.com. Mercury removes ads and distractions from HTML before passing it to breakdance, resulting in cleaner, more readable markdown.
 
@@ -70,9 +70,9 @@ $ npm install  --global breakdance-mercury
 This adds the `bdm` command to your system path, allowing you to run breakdance-mercury CLI from any directory:
 
 ```sh
-$ bdm
+$ bdm [options] <src> <dest>
 # or use the "breakdance-mercury" alias in case of conflicts
-$ breakdance-mercury
+$ breakdance-mercury [options] <src> <dest>
 ```
 
 ### CLI examples
